@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string_explain_permission_request_reason">为了该操作的正常使用，请同意接下来的权限申请。</string>
+    <string name="string_explain_permission_rational">您拒绝了该操作的必要权限，为了该操作的正常使用，请您授予相关申请权限。</string>
+    <string name="string_explain_permission_permanent_denied">您已永久拒绝了该操作的必要权限，如果想继续使用该功能，请前往设置授予必要的权限。</string>
+</resources>

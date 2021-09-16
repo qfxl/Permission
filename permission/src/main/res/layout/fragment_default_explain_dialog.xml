@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_easy_permission_dialog"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/string_explain_permission_request_reason"
+        android:textColor="@color/color_permission_dialog_content_text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_default_explain_dialog_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:text="确定"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</LinearLayout>

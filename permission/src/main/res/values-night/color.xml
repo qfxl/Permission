@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_default_explain_dialog_bg">#191717</color>
+    <color name="color_permission_dialog_content_text">#FFFFFF</color>
+    <color name="color_permission_dialog_button_negative_text">#FFFFFF</color>
+</resources>
