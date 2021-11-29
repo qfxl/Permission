@@ -27,8 +27,8 @@ android {
 
     defaultConfig {
         minSdk 21
-        versionCode 103
-        versionName "1.0.3"
+        versionCode 110
+        versionName "1.1.0"
     }
 
     buildTypes {
