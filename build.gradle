@@ -27,13 +27,6 @@ buildscript {
     }
 }
 
-allprojects {
-    plugins.withId("com.vanniktech.maven.publish") {
-        mavenPublish {
-            sonatypeHost = "S01"
-        }
-    }
-}
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
