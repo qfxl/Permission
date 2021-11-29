@@ -18,20 +18,18 @@ package com.qfxl.app
 
 import android.Manifest
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import cn.xuyonghong.permission.Permission
-import com.qfxl.app.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_main)
 
-        binding.apply {
+        findViewById<Button>(R.id.btn_camera_permission).apply {
 
-            btnCameraPermission.setOnClickListener {
+            setOnClickListener {
                 Permission.with(this@MainActivity)
                     .permissions(
                         Manifest.permission.CAMERA
