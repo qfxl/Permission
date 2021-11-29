@@ -58,7 +58,7 @@ android {
                     from components.release
                     groupId = group
                     artifactId = 'permission'
-                    version = '1.0.0'
+                    version = '1.0.3'
                 }
             }
         }
