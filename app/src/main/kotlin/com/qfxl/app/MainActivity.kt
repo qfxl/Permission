@@ -38,11 +38,7 @@ class MainActivity : AppCompatActivity() {
                     .showRequestRational()
                     .showPermanentDeniedDialog()
                     .request { allGranted, deniedPermissions ->
-                        if (allGranted) {
-                            toast("all permission granted")
-                        } else {
-                            toast("some permission are denied，${deniedPermissions}")
-                        }
+
                     }
             }
         }
